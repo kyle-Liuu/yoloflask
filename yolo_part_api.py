@@ -5,7 +5,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-# 加载 YOLOv8n 模型
+# 加载 YOLO 模型
 model = YOLO('yolo11n.pt')
 
 @app.route('/detect', methods=['POST'])
